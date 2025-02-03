@@ -18,7 +18,7 @@ public class Main {
         list.add(w1);
         list.add(w2);
 
-        WorkerComparator wC = new WorkerComparator();
+        Worker.WorkerComparator wC = new Worker.WorkerComparator();
         list.sort(wC);
         System.out.printf("Сортированный список работников: " + list);
         System.out.println("\n");

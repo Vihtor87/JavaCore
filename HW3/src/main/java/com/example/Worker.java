@@ -26,12 +26,12 @@ public class Worker {
 //    public void upSalary(double percent) {
 //        setSalary((salary + (salary * (percent / 100))));
 //        }
-   }
 
-    class WorkerComparator implements Comparator<Worker> {
+    static class WorkerComparator implements Comparator<Worker> {
 
         @Override
         public int compare(Worker o1, Worker o2) {
             return o1.getBirthDate().compareTo(o2.getBirthDate());
         }
     }
+}
